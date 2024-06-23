@@ -1,7 +1,8 @@
-<h1>
-    Helo... I am an index template!</br>
-</h1>
+@extends('layouts.app')
 
+@section('title', 'The list of tasks')
+
+@section('content')
 <div>
     <!-- @if (count($tasks))
         <p>Here is your current tasks:</p>
@@ -20,5 +21,5 @@
         <div>Congratulation! You have no tasks!</div>
     @endforelse
 </div>
-
+@endsection
 
