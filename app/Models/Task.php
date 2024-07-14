@@ -12,4 +12,9 @@ class Task extends Model
     protected $fillable = [
         "title","description","long_description"
     ] ;
+
+    public function ToogleCompleted() {
+        $this->completed = !$this->completed;
+        $this->save();
+    }
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Laravel Task App - @yield('title')</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     @yield('styles')
 </head>
 <body>
